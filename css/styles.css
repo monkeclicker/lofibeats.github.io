@@ -1,0 +1,30 @@
+body {
+    background-color: #E34A27 !important;
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+  }
+
+audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel {
+     background-color: #FEA655;
+     color: #FEA655;
+     border-color: black;
+}
+
+.modal-content {
+  position: absolute;
+  top: 0.05%;
+  right: 0.05%;
+  background-color: grey;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 30px;
+}
+
+
+.iframe-container {
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9*/
+  position: relative;
+}
+
