@@ -10,21 +10,8 @@ audio::-webkit-media-controls-play-button,audio::-webkit-media-controls-panel {
      border-color: black;
 }
 
-.modal-content {
-  position: absolute;
-  top: 0.05%;
-  right: 0.05%;
-  background-color: grey;
-  width: 30px;
-  height: 30px;
-  border: 0;
-  border-radius: 30px;
+#modal1 {
+  position:fixed;
+  left: 0.5%;
+  top: 0.5%;
 }
-
-
-.iframe-container {
-  overflow: hidden;
-  padding-top: 56.25%; /* 16:9*/
-  position: relative;
-}
-
